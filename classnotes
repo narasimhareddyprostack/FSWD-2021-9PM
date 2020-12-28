@@ -11,22 +11,21 @@ git push -u origin main
 
 
 https://github.com/
-
-Step 1:  create a/c github
-         create Code Repository
-step 2:  download install git software (google it)
-
-step 3: create Local Folder(Machine)
-CMD/ VS Code 
+Step 1: Create a/c github
+        Create Code Repository
+step 2: Download install git software (google it)
+step 3: Create Local Folder(Machine)
+CMD / VS Code 
 >git init 
+>git branch -M main
 >git remote add origin https://github.com/narasimhareddyprostack/FSWD-2021-9PM.git
 
 >git config --global user.name narasimhareddyprostack
-
 >git config --global user.email "greetlabs@gmail.com"
 
 step 4: create one code file.
         commit the all
+
 step 5: git push -u origin main 
 
 or > git push -u origin master 
