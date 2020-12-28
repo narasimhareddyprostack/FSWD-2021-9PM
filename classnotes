@@ -26,6 +26,9 @@ CMD
 >git config --global user.email "greetlabs@gmail.com"
 
 step 4: create one code file.
-        commit
-
+        commit the all
 step 5: git push -u origin main 
+
+or git push -u origin master 
+You need to autherize. 
+
