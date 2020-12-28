@@ -1,0 +1,28 @@
+
+echo "# FSWD-2021-9PM" >> README.md
+
+git init
+
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/narasimhareddyprostack/FSWD-2021-9PM.git
+git push -u origin main
+
+
+https://github.com/
+
+Step 1:  create a/c github
+         create Code Repository
+step 2:  download install git software (google it)
+
+step 3: create Local Folder(Machine)
+CMD
+>git init 
+>git remote add origin https://github.com/narasimhareddyprostack/FSWD-2021-9PM.git
+
+>git config --global user.name narasimhareddyprostack
+
+>git config --global user.email "greetlabs@gmail.com"
+
+step 4: create one code file.
