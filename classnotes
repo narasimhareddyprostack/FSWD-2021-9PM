@@ -17,7 +17,7 @@ Step 1:  create a/c github
 step 2:  download install git software (google it)
 
 step 3: create Local Folder(Machine)
-CMD
+CMD/ VS Code 
 >git init 
 >git remote add origin https://github.com/narasimhareddyprostack/FSWD-2021-9PM.git
 
@@ -29,6 +29,14 @@ step 4: create one code file.
         commit the all
 step 5: git push -u origin main 
 
-or git push -u origin master 
-You need to autherize. 
+or > git push -u origin master 
+     You need to autherize. 
 
+
+
+IDE _ Integrated Development Env 
+
+Notepad -, Nodepad++, 
+VS Code - Opensource 
+
+VS - VS Code 
