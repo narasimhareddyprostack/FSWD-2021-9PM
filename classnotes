@@ -39,3 +39,49 @@ Notepad -, Nodepad++,
 VS Code - Opensource 
 
 VS - VS Code 
+
+---------------------------------------------
+HTML Page Extension
+.HTML
+.htm 
+
+Install the live server for VS Code Extension 
+---------------------------------------------
+Document Tags
+	- html,head,body, meta, link, script , title
+Document Structure Tags 
+	- div, section, article, footer, header 
+Image
+	- img 
+Table
+	- <table>
+	  <thead>
+	  <tbody>
+	  <tr>
+	  <th>
+	  <td>
+	
+Text Formatting tags 
+	- h1,... h6, bold, strong, italic, span, underline, p 
+Form Tags
+	- <form>
+	- <label>
+	  <input type="text"> 
+	  <select><option>
+	  <textarea>
+	  <button>
+	  
+iframe Tabs 
+	<iframe></iframe>
+Video / audio
+
+canvas 
+
+List Tags 
+	ul and ol , li 
+Link  Tags 
+	<a>
+
+
+
+
