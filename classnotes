@@ -1,4 +1,3 @@
-
 echo "# FSWD-2021-9PM" >> README.md
 
 git init
@@ -85,3 +84,5 @@ Link  Tags
 
 
 
+
+SQL MYSQL - NOSQL is mongoDB 
