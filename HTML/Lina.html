@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>first HTML form ASSIGNMENT:1</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      .border-class {
+        border: thick black solid;
+        margin: 50px;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container border-class" style="background-color: #e6f0ff">
+      <form id="form1">
+        <label class="text-primary"> ADD NEW ADDRESS </label>
+        <div class="row">
+          <div class="form-group col-sm-4">
+            <input type="text" class="form-control" placeholder="Name" />
+            <br />
+            <input type="number" class="form-control" placeholder="PinCode" />
+          </div>
+          <div class="form-group col-sm-4">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="10-digit mobile Number"
+            />
+            <br />
+            <input type="text" class="form-control" placeholder="Locality" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-8">
+            <textarea
+              class="form-control"
+              placeholder="ADDRESS(Area & Street)"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="City/Dist/Town"
+            />
+            <br />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Landmark(optional)"
+            />
+          </div>
+          <div class="form-group col-sm-4">
+            <select class="form-control" name="States">
+              <option>Andhra Pradesh</option>
+              <option>Arunachal Pradesh</option>
+              <option>Assam</option>
+              <option>Bihar</option>
+              <option>Chhattisgarh</option>
+              <option>Goa</option>
+              <option>Gujarat</option>
+              <option>Haryana</option>
+            </select>
+            <br />
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Alternate-Phone(optional)"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-4">
+            <label class="text-primary"> ADDRESS TYPE </label>
+            <br />
+            <div class="radio">
+              <label><input type="radio" name="optradio" />Home</label>
+              <label><input type="radio" name="optradio" />Work</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-6">
+            <button type="submit" class="btn btn-group btn-primary">
+              SAVE
+            </button>
+            <button type="submit" class="btn btn-group btn-danger">
+              CANCEL
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
