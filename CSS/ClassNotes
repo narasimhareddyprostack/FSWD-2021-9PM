@@ -5,7 +5,7 @@ Compatability - all divices
 Platform independent 
 Easy to manage
 saves lot of time 
-Global Change    ? 
+        Global Change    ? // Styles Reusability
 Page load faster ? 
 
 Inline CSS 
@@ -15,3 +15,33 @@ External CSS
 How to apply css Styles to web page?
 Inline , Internal and External
 
+
+
+Note:  Always nearest Styles are highest prority 
+
+
+
+How to get the Style Reusability?
+--CSS ie Selector
+
+funciton duty?
+ - code Reusability
+
+
+Code Reusability         Styles Reusability
+
+Function/class           CSS selector
+
+    HTML 
+    Tags, Attribute
+
+    CSS
+    Selector
+
+--------------------------
+Class Selector vs                 Id Selector
+Duplicate is possible             - must not be duplicate 
+
+.                                 #   
+
+(*)  - Universal Selector 

@@ -1,0 +1,13 @@
+h1,
+p {
+  color: blue;
+  background-color: burlywood;
+}
+
+#xyz {
+  color: greenyellow;
+}
+
+.xyz {
+  color: gold;
+}

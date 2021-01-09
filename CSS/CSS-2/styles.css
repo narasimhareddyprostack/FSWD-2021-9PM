@@ -1,0 +1,15 @@
+/* .h1 {
+  color: #0000ff;
+  background-color: aliceblue;
+} */
+
+h1 {
+  color: red;
+}
+
+.ten {
+  color: blue;
+}
+#hundred {
+  color: greenyellow;
+}
