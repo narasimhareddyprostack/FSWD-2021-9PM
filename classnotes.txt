@@ -86,3 +86,36 @@ Link  Tags
 
 
 SQL MYSQL - NOSQL is mongoDB 
+
+Javascript Keywords/Reserved Words
+
+
+Data Types 
+Primitive and Non-premitive
+
+
+
+Identifiers:
+  - variable, function, class, object
+  - property , method
+  
+  Rule :  should start with a-z | A -Z 
+		  can start with $ and _ 
+		   
+          should not start with 0-9 & special Char 
+								      ~ ! @#% ^ & *			
+		  
+		  shuld not use - keywords/Reserved
+						   55+	
+	      should not use keywords/Reserved as identifier
+		  
+		  
+How to set the nodejs Path?
+
+-- goto My comp -> Env Variable -> System Variable -> path (edit) nodejs 
+
+C:\Program Files\nodejs\node_modules\npm\bin
+
+
+		  
+		  
