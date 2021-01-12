@@ -116,6 +116,23 @@ How to set the nodejs Path?
 
 C:\Program Files\nodejs\node_modules\npm\bin
 
+Operators
+ -- Arithmatic Op - 
+ -- Increment/Decr 
+ -- Logical Op
+ -- Relational Op 
+ -- BItwise Op 
+ -- Ternary Operator 
+ -- (...) Spread Op - extract and copy 
+ -- Assignment Operator 
+    =, ==, === (Strict Equality)
 
-		  
-		  
+
+
+What is Operator?
+
+
+
+Iterativ Flow 
+------------
+Apply iteration only for Iterable objects.
