@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <h2>Hello, Learning</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                onkeyup="getData()"
+                onfocus="getFocus()"
+                placeholder="User"
+                id="user"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      function getFocus() {
+        alert("Hello, Good Evening");
+      }
+      function getData() {
+        let char = document.getElementById("user").value;
+        console.log(char);
+      }
+    </script>
+  </body>
+</html>

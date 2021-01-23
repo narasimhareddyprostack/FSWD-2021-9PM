@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Events - Pro Stack Academy</title>
+
+    <!-- style -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: roboto;
+        width: 100%;
+      }
+
+      .container {
+        margin: auto;
+        width: 80%;
+        /* background: red; */
+        display: flex;
+        height: 100vh;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 40px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      label {
+        font-size: 15px;
+      }
+
+      span {
+        font-size: 30px;
+      }
+
+      li {
+        /* list-style: none; */
+        padding: 4px;
+      }
+
+      .inputfield {
+        outline: none;
+        width: 200px;
+        background: red;
+        height: 40px;
+        color: white;
+        box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.4);
+
+        /* padding: 100px 20px; */
+      }
+
+      .focus {
+        background: white;
+        color: black;
+      }
+
+      .onblur {
+        background: white;
+        color: black;
+      }
+    </style>
+
+    <!--  style end-->
+  </head>
+
+  <body>
+    <h1>Javascript Events</h1>
+    <br /><br />
+
+    <div class="container">
+      <!-- on mouseover -->
+      <div class="item">
+        <label
+          ><span>OnMouseover:</span><br />mouse over to change button background
+          color</label
+        >
+        <br />
+        <button
+          onmouseover="hover()"
+          id="mouseover"
+          class="inputfield mouseover"
+        >
+          Mouse over
+        </button>
+      </div>
+      <br /><br />
+      <!-- on mouseover -->
+
+      <!-- on mouseout -->
+      <div class="item">
+        <label
+          ><span>OnMouseout:</span><br />mouse over to change button background
+          color</label
+        >
+        <br />
+        <button
+          onmouseout="outmouse()"
+          id="outmouse"
+          class="inputfield mouseover"
+        >
+          Mouse Out
+        </button>
+      </div>
+      <br /><br />
+      <!-- on mouseout -->
+
+      <!-- onclick -->
+      <div class="item">
+        <label
+          ><span>Onclick:</span><br />Click to change button background
+          color</label
+        >
+        <br />
+        <button onclick="btnclick()" id="clickon" class="inputfield mouseover">
+          Onclikck
+        </button>
+      </div>
+      <br /><br />
+      <!-- onclick -->
+
+      <!-- ondblclick -->
+      <div class="item">
+        <label
+          ><span>Ondblclick:</span><br />Double Click to change button
+          background color</label
+        >
+        <br />
+        <button
+          ondblclick="dblbtnclick()"
+          id="dblclickon"
+          class="inputfield mouseover"
+        >
+          ondblclick
+        </button>
+      </div>
+
+      <!-- ondblclick -->
+
+      <!-- onfocus-->
+      <div class="item">
+        <label
+          ><span>onfocus:</span><br />Click to change Input background
+          color</label
+        >
+        <br />
+        <input
+          onfocus="hey()"
+          onfocus="change()"
+          type="text"
+          id="focus"
+          value=""
+          class="inputfield focus"
+        />
+      </div>
+      <!-- onfocus-->
+
+      <!-- onblur-->
+      <div class="item">
+        <label
+          ><span>onblur:</span><br />Change Lower case to uppper case onblur
+          Events</label
+        >
+        <br />
+        <input
+          onblur="change()"
+          type="text"
+          id="change"
+          value=""
+          class="inputfield onblur"
+        />
+      </div>
+
+      <!-- onblur-->
+    </div>
+
+    <!-- js start -->
+    <script>
+      // inputfield mouseover
+      function hover() {
+        document.getElementById("mouseover").style.background = "blue"; //onmouseover
+      }
+
+      // inputfield mouseover
+      function outmouse() {
+        document.getElementById("outmouse").style.background = "green"; //onmouseout
+      }
+
+      // inputfield mouseover
+      function btnclick() {
+        document.getElementById("clickon").style.background = "black"; //onclick
+      }
+
+      // inputfield mouseover
+      function dblbtnclick() {
+        document.getElementById("dblclickon").style.background = "dodgerblue"; //ondblclick
+      }
+      function hey() {
+        document.getElementById("focus").style.background = "pink"; //onfocus
+      }
+      function change() {
+        var x = document.getElementById("change"); //onblur
+        x.value = x.value.toUpperCase();
+      }
+    </script>
+
+    <!-- js End -->
+  </body>
+</html>
