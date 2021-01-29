@@ -6,5 +6,6 @@ class Address {
     this.state = state;
   }
 }
-//export default Address;
-module.exports = Address;
+
+//export default Address; // ES6 format 
+//module.exports = Address;  //ES5 format
