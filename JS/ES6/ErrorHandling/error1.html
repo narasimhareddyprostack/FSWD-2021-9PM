@@ -1,0 +1,26 @@
+<!-- // writing a JS code, if you are predict/assume we will get error. // we need to
+handle error // try {} catch(e){ } -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Basic of JS</h1>
+    <script>
+      try {
+        wish();
+      } catch (e) {
+        document.write(e.name, "<br/>");
+        document.write(e.stack, "<br/>");
+        document.write(e.message, "<br/>");
+      } finally {
+        document.write("..............................", "<br/>");
+        document.write("Hello, from finally block");
+      }
+    </script>
+  </body>
+</html>
