@@ -11,15 +11,20 @@ handle error // try {} catch(e){ } -->
   <body>
     <h1>Basic of JS</h1>
     <script>
+      function getRectArea(width, height) {
+        if (isNaN(width) || isNaN(height)) {
+          throw "Parameter is not a number!";
+        }
+      }
+
       try {
-        wish();
-      } catch (e) {
-        document.write(e.name, "<br/>");
-        document.write(e.stack, "<br/>");
-        document.write(e.message, "<br/>");
+        getRectArea(3, 4);
+      } catch (err) {
+        document.write(err);
+        document.write(err.message);
+        // expected output: "Parameter is not a number!"
       } finally {
-        document.write("..............................", "<br/>");
-        document.write("Hello, from finally block");
+        document.writeln("<br/>", " Finally will execute always");
       }
     </script>
   </body>
