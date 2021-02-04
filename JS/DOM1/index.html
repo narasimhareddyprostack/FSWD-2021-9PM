@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>DOM Basics -1</h1>
+    <form>
+      <label> User Name</label>
+      <input type="text" id="user" /> <br />
+      <label> Password</label>
+      <input type="text" name="password" />
+      <p>Hello, GM</p>
+      <button onclick="getData()">Submit</button>
+    </form>
+    <script>
+      function getData() {
+        let password = document.getElementsByName("password")[0].tagName;
+
+        alert(password.innerHTML);
+      }
+    </script>
+  </body>
+</html>
