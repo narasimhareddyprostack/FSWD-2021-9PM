@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onload="pageLoad()">
+    <h1>DOM - Accessing and Removing HTML elements</h1>
+
+    <select id="houseType"></select>
+    <button onclick="removeDropdown()">Remove</button>
+    <script>
+      function pageLoad() {
+        let houseTypes = ["2BHK", "3 BHK", "4BHK"];
+
+        let hT = document.getElementById("houseType"); // select
+
+        for (var item of houseTypes) {
+          var opt = document.createElement("option");
+          opt.text = item;
+          opt.value = item;
+          hT.appendChild(opt);
+        }
+        hT.style.backgroundColor = "red";
+      }
+      function removeDropdown() {
+        let hT = document.getElementById("houseType"); // select
+        hT.remove();
+      }
+    </script>
+  </body>
+</html>
