@@ -1,0 +1,51 @@
+Web Applicaiton - UI
+  - Decomposing the UI into multiple component
+  - all components, making ui nothig building blocks
+  
+SPA --
+Binding - 
+------------------------------------------
+UI State management is very difficulty.
+
+  - DOM (adding and removing HTML elements is very difficulty)
+Redux 
+---------------------------------------------
+1. React js is facilitates to writing reusable components
+2. React focus - easy to learn 
+   16.8 - class component
+   16.8 react - react hooks 
+3. SEO 
+4. boots productivity, performance
+5. backed by strong community, Facebook.
+
+https://www.npmjs.com/
+10 lacks packages
+A Global place/cdn , get the all js packages
+  NPMJS - GITHUB - Microsoft
+  
+-------------------------------
+Installation   - Option 1
+-----------------
+npx create-react-app reactApp
+cd reactApp
+npm start 
+
+option - 2 
+------------
+npm install -g crate-react-app 
+
+create-react-app reactApp 
+cd reactApp
+npm start 
+
+
+Option - 3 
+--------------
+index.html
+	CDN Links - React JS CDN and Babel
+content Deliver Networks
+
+
+git         angualr     nodejs   react Js 
+---- -- 
+git          ng 		node      npm  
