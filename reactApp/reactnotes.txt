@@ -30,6 +30,7 @@ npx create-react-app reactApp
 cd reactApp
 npm start 
 
+
 option - 2 
 ------------
 npm install -g crate-react-app 
@@ -38,14 +39,22 @@ create-react-app reactApp
 cd reactApp
 npm start 
 
-
 Option - 3 
 --------------
 index.html
-	CDN Links - React JS CDN and Babel
+	CDN Links - React JS CDN and Babel CDN
 content Deliver Networks
 
 
 git         angualr     nodejs   react Js 
 ---- -- 
 git          ng 		node      npm  
+
+
+
+
+
+c                d:\ecart>npm start 
+			     d:\mcart>npm start 
+----------------------------------------------
+
