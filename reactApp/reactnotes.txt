@@ -58,3 +58,63 @@ c                d:\ecart>npm start
 			     d:\mcart>npm start 
 ----------------------------------------------
 
+
+
+------------------------------------------------------------
+React Application - Flow
+
+1. App.js  - Root component of React Applicaiton
+2. Index.js - main file of React Applicaiton
+3. Index.html - Template file of React Applicaiton
+
+App.js? Root component
+----------------------
+function App(){
+  retunr <h1>Hello, GM</h1>
+}
+export default App;
+
+Index.js 
+-------------
+import ReactDOM from 'react-dom'
+import App from './App';
+ReactDOM.render(<App/>, document.getElementById('root));
+
+
+index.HTML 
+------------
+<body>
+<div id="root"> 
+</div>
+</body>
+
+
+
+React Hot reloading/ auto reloading facility available.
+React component - Two types 
+
+1. functional component 
+
+2. Class component
+
+
+
+//how to create a JS class
+//how to create a React Class component
+
+
+//how to create a React Funcitonal componet
+// return JSx - ie describe the UI
+
+/*
+function App(){
+    return <h1> Hello, GM</h1>
+}
+export default App
+
+*/
+
+
+//create a react class componets
+//1. class should extends React.Component
+//2. render(){} , it should return JSX
