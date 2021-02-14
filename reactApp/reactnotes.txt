@@ -118,3 +118,12 @@ export default App
 //create a react class componets
 //1. class should extends React.Component
 //2. render(){} , it should return JSX
+
+
+
+What is JSX?
+
+React Fragment?
+If you want to return multiple html tags, we have to wrapped as one element.
+<></>
+<React.Fragment></React.Fragment>

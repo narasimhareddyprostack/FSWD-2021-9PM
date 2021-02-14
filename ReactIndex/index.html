@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Ex - with out installation ie CDN</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script type="text/babel">
+    function App() {
+      let name = "Narasimha";
+      return (
+        <>
+          <h1>Hello, GM...</h1>
+          <NavBar one={name} />
+        </>
+      );
+    }
+
+    function NavBar(props) {
+      return <h5>Name :{props.one} </h5>;
+    }
+
+    ReactDOM.render(<App />, document.getElementById("root"));
+  </script>
+</html>
+
+<!--
+
+    1. Add new HTML elemment in div tags
+-->
