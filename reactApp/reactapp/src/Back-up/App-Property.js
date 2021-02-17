@@ -7,9 +7,8 @@ export default App;
  */
 import React from "react";
 class App extends React.Component {
-
   emp_Name = "Narasimha";
-  
+
   render() {
     return <h1>{this.emp_Name}</h1>;
   }
