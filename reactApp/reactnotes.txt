@@ -127,3 +127,19 @@ React Fragment?
 If you want to return multiple html tags, we have to wrapped as one element.
 <></>
 <React.Fragment></React.Fragment>
+
+
+----------------------------
+What is props?
+ - Props is being used for passing data from 
+   one component to another component
+ - Props are read only data/immutable. 
+ 
+
+State ?
+
+ - we should never modify the state directly.
+ 
+ 
+
+

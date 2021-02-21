@@ -4,11 +4,8 @@ class App extends Component {
     counter: 0,
   };
   btnHandler = (value) => {
-    if (value == "incr") {
-      this.setState({ counter: this.state.counter + 1 });
-    } else {
-      this.setState({ counter: this.state.counter - 1 });
-    }
+    
+    this.setState({ counter: value });
   };
 
   render() {
@@ -22,13 +19,13 @@ class App extends Component {
         <h1>Counter Value:{this.state.counter}</h1>
         <button
           className="btn btn-success mr-5"
-          onClick={this.btnHandler.bind(this, "incr")}
+          onClick={this.btnHandler.bind(this, this.state.counter + 1)}
         >
           Increment
         </button>
         <button
           className="btn btn-primary"
-          onClick={this.btnHandler.bind(this, "decr")}
+          onClick={this.btnHandler.bind(this, this.state.counter - 1)}
         >
           Decrement
         </button>
