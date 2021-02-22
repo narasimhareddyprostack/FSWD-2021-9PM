@@ -3,7 +3,6 @@ class App extends React.Component {
   state = {
     message: "Hello",
   };
-
   helloGM = () => {
     console.log("Test - helloGM");
     this.setState({ message: "Good Morning" });

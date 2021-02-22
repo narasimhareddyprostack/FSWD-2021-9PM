@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-
 class App extends Component {
   state = {
     name: "Test Name",
   };
-
-  TestMethod = () => {
+  changeNameMethod = () => {
     this.setState({
       name: "Narasimha",
     });
@@ -16,10 +14,9 @@ class App extends Component {
       <div>
         <h1> React Js - State </h1>
         <h2> Name: {this.state.name}</h2>
-        <button onClick={this.TestMethod}> Test</button>
+        <button onClick={this.changeNameMethod}>Change Name</button>
       </div>
     );
   }
 }
-
 export default App;

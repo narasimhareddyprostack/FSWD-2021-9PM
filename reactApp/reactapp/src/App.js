@@ -1,37 +1,35 @@
 import React, { Component } from "react";
+
 class App extends Component {
   state = {
-    counter: 0,
+    userName: "",
   };
-  btnHandler = (value) => {
-    if (value == "incr") {
-      this.setState({ counter: this.state.counter + 1 });
-    } else {
-      this.setState({ counter: this.state.counter - 1 });
-    }
+  userNameHanlder = (event) => {
+    this.setState({
+      userName: event.target.value,
+    });
   };
-
   render() {
     return (
       <div>
         <nav className="navbar navbar-dark bg-dark navbar-expand-sm">
           <a href="/" className="navbar-brand">
-            React Basics - Props and State, Event Handling
+            React Basics - Form Handling
           </a>
         </nav>
-        <h1>Counter Value:{this.state.counter}</h1>
-        <button
-          className="btn btn-success mr-5"
-          onClick={this.btnHandler.bind(this, "incr")}
-        >
-          Increment
-        </button>
-        <button
-          className="btn btn-primary"
-          onClick={this.btnHandler.bind(this, "decr")}
-        >
-          Decrement
-        </button>
+        <h1>Testing</h1>
+        <form onSubmit={this.formHandler}>
+          <label> User Name</label>
+          <br />
+          <input
+            type="text"
+            name="userName"
+            value={this.state.userName}
+            onChange={this.userNameHanlder}
+          />{" "}
+          <br />
+          <button type="submit"> Submit</button>
+        </form>
       </div>
     );
   }
