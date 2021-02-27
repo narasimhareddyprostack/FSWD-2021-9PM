@@ -79,9 +79,10 @@ export class PreferredLoc extends Component {
                         <div className="card">
                           <div className="card-body bg-primary">
                             <p>
-                              {" "}
-                              Chennai, on the Bay of Bengal in eastern India, is
-                              the capital of the state of Tamil Nadu.
+                              Bengaluru (also called Bangalore) is the capital
+                              of India's southern Karnataka state. The center of
+                              India's high-tech industry, the city is also known
+                              for its parks and nightlife.
                             </p>
                           </div>
                         </div>
@@ -93,8 +94,8 @@ export class PreferredLoc extends Component {
                         <div className="card">
                           <div className="card-body bg-warning">
                             <p>
-                              Chennai, on the Bay of Bengal in eastern India, is
-                              the capital of the state of Tamil Nadu.
+                              Kochi (also known as Cochin) is a city in
+                              southwest India's coastal Kerala state.
                             </p>
                           </div>
                         </div>
