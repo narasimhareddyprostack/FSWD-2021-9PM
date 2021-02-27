@@ -1,13 +1,14 @@
 import React from "react";
-import ParentComp from "./components/ParentComp";
+/* import Login from "./Rendering/Login"; */
+import PreferredLoc from "./Rendering/PreferredLoc";
 let App = () => {
   return (
     <>
-      <h1> App Component</h1>
-      <hr />
-      <ParentComp />
+      <nav className="navbar navbar-dark bg-dark">
+        <a href="/"> React Conditional Rendering</a>
+      </nav>
+      <PreferredLoc />
     </>
   );
 };
-
 export default App;
