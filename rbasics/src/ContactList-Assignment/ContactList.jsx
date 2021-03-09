@@ -4,14 +4,16 @@ class ContactList extends Component {
   constructor(props) {
     super(props);
   }
-  ClickContact = () => {};
+  ClickContact = (contact) => {
+    this.props.pullData(contact);
+  };
   render() {
     return (
       <>
-        <pre>{JSON.stringify(this.props.contacts)}</pre>
+        {/*   <pre>{JSON.stringify(this.props.contacts)}</pre> */}
         <div className="container">
           <div className="row">
-            <div className="col-md-9">
+            <div className="col">
               <table className="table table-hover table-primary table-striped">
                 <thead className="bg-primary text-white">
                   <tr>
@@ -28,7 +30,12 @@ class ContactList extends Component {
                       {this.props.contacts.map((contact) => {
                         return (
                           <>
-                            <tr onClick={this.ClickContact.bind(this, contact)}>
+                            <tr
+                              onMouseOver={this.ClickContact.bind(
+                                this,
+                                contact
+                              )}
+                            >
                               <td>{contact.login.uuid}</td>
                               <td>
                                 <img src={contact.picture.medium} />
