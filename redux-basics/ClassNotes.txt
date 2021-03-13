@@ -1,0 +1,32 @@
+How to implete Redux in React Application?
+
+Step 1: redux is 3rd party package
+		install required package
+		>npm i redux	
+			   react-redux 
+			   redux-devtools-extension
+			   
+Step 2: To test/read redux store(states) flow
+       crome extension
+	   Name: Redux devtool extension
+	   
+step 3: crete React Application View
+		----------- Redux -----------
+Step 4: create Redux - actions
+Step 5: create Redux - Reducer
+
+step 6: create Redux - rootReducer.js 
+	    create Redux - store.js
+
+Step 7: Establish the connection - redux store to React 
+
+Step 8: React View - Read Redux Store values
+		useSelector - Hooks 
+		import {useSelector} from 'react-redux'
+
+How to read Redux store - state data?
+--useSelector hooks 
+
+
+--useDispatch hooks - dispatch actions.
+			   
