@@ -3,6 +3,7 @@ import WishMessage from "./Components/wish/WishMessage";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import { store } from "./redux/store";
 import { Provider } from "react-redux";
+import Counter from "./Components/ProductCounter/Counter";
 let App = () => {
   return (
     <React.Fragment>
@@ -11,6 +12,7 @@ let App = () => {
       </nav>
       <Provider store={store}>
         <WishMessage />
+        <Counter />
       </Provider>
     </React.Fragment>
   );
