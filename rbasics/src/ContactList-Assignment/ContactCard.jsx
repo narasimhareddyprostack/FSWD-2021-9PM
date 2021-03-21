@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class ContactCard extends Component {
   render() {
-    let {    } = this.props;
+    let { selectedContact } = this.props;
     return (
       <>
         <div className="container">

@@ -1,11 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
+import Login from "./Login/Login";
+import Registrtion from "./Login/Registration";
 function App() {
-  let [msg, setMsg] = useState("Hello");
-  //useState hook method return - two value , one is variable has default value
-  // second one , setter method
-  let changeMessageOne = () => {
-    setMsg("Good Evening");
-  };
   return (
     <>
       <nav className="navbar navbar-dark bg-dark">
@@ -13,33 +9,21 @@ function App() {
           React Hooks Example
         </a>
       </nav>
+      <div className="conatiner">
+        <div className="row">
+          <div className="col-md-5">
+            <h1 className="text-center"> Login</h1>
+            <Login />
+          </div>
+          <div className="col-md-5">
+            <h1 className="text-center"> Registraion</h1>
+            <Registrtion />
+          </div>
+        </div>
+      </div>
+
       <hr />
-      <h1>Wish Message:{msg}</h1>
-      <button
-        className="btn btn-success"
-        onClick={() => {
-          setMsg("Good Morning");
-        }}
-      >
-        Change Message
-      </button>
-      <button
-        className="btn btn-info ml-4"
-        onClick={() => {
-          setMsg("Good Night......");
-        }}
-      >
-        Good Night
-      </button>
-      <button className="btn btn-danger ml-4" onClick={changeMessageOne}>
-        Good Evening
-      </button>
     </>
   );
 }
 export default App;
-//We cant change the state dirctly in component(clss or functional)
-/*
-.setState({})  - class component
-useState() - React hook
-*/
