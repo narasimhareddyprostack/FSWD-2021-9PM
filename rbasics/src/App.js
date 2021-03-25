@@ -1,5 +1,5 @@
 import React from "react";
-import ContactApp from "./ContactList-Assignment/ContactApp";
+import ContactApp from "./ContactApp-Fun/ContactApp";
 
 function App() {
   return (

@@ -1,0 +1,31 @@
+Assignment - ContactApp using Functional Comp
+
+1. React Comp
+2. Props
+3. States
+4. Event Handling and Event Binding
+5. Conditional Rendering and List Rendering 
+6. React Axios 
+7. React Routing 
+8. ES6 - JS
+
+
+----------------------------------------
+let ContactApp = ()=>{
+//need to consume HTTP APi
+
+}
+
+
+
+
+Class Comp Life Cycle Methods     vs Functional Life Cycle 
+
+componentDidMount                 useEffect();
+componentWillUnMount
+cmpponentDidMount
+
+
+------------------------------------
+useEffect() - Functional Component life cycle hook 
+              will execute  return statement only
