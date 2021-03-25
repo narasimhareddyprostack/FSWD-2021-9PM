@@ -7,7 +7,9 @@ let ContactCard = (props) => {
           <div className="col">
             <div className="card">
               <div className="card-header">
-                <img src={props.selectedContact.picture.medium} alt="" />
+                <div className="center">
+                  <img src={props.selectedContact.picture.large} alt="" />
+                </div>
               </div>
               <div className="card-body">
                 <ul>

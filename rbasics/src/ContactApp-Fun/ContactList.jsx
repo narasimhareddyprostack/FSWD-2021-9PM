@@ -10,7 +10,7 @@ function ContactList(props) {
         <div className="row">
           <div className="col">
             <pre>{JSON.stringify(props.contacts)}</pre>
-            <table className="table table-hover striped">
+            <table className="table table-hover table-striped table-dark striped">
               <thead>
                 <tr>
                   <td>Name</td>
@@ -24,7 +24,7 @@ function ContactList(props) {
                   <React.Fragment>
                     {props.contacts.map((contactData) => {
                       return (
-                        <tr onClick={pushData.bind(this, contactData)}>
+                        <tr onMouseOver={pushData.bind(this, contactData)}>
                           <th> {contactData.name.first}</th>
                           <th> {contactData.email}</th>
                           <th>

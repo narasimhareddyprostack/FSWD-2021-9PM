@@ -21,7 +21,7 @@ let ContactApp = ()=>{
 
 Class Comp Life Cycle Methods     vs Functional Life Cycle 
 
-componentDidMount                 useEffect();
+componentDidMount                 useEffect(()=>{}, []);
 componentWillUnMount
 cmpponentDidMount
 
