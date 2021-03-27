@@ -1,13 +1,18 @@
 import React from "react";
-import ContactApp from "./ContactApp-Fun/ContactApp";
-
+import Navbar from "./Routing/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ContactTable from "./Routing/Data";
+import Message from "./Routing/Message";
 function App() {
   return (
     <>
-      <nav className="navbar navabar-dark bg-dark">
-        <a href="/"> React - Axios Example - Final</a>
-      </nav>
-      <ContactApp />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/data" exact component={ContactTable} />
+          <Route path="/message" exact component={Message} />
+        </Switch>
+      </Router>
     </>
   );
 }
