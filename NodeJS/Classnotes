@@ -1,0 +1,39 @@
+Why to use Node JS
+--------------------
+1. Fast and Highly Scalable
+2. Light Weight & Efficient to create Server
+3. Asynchronous & Non-Blocking I/O
+4. Same JS language for Both Client and Server 
+5. Very Popular for Server-side Web Appl Development
+
+
+
+Asynchronous & Non-Blocking I/O
+
+  -- simultaneously serve multiple requests.
+  -- It won't block any resource/users
+  -- Separate process running for different users.
+
+ Synchronous                vs            Asynchronous
+
+User 1 - Login,getData                  It will accept all the 
+
+USer 2 - Login,getData                  user Request.
+
+User 3 - Login, getData
+
+
+-------------------------------------------------
+JS
+function --> inner/nested -->nameless function --()=>{} 
+							 anonymous function	
+Async and await, promices and closure.
+
+
+
+
+							
+
+  
+ 
+  
