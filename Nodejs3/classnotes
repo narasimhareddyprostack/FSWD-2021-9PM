@@ -1,13 +1,16 @@
-//Node JS - with ES6 
+//How to enable ES6 Syntax wit hNode JS Environment
+
 Step 1: install required packages 
         npm i express @babel/core @babel/register @babel/preset-env babel-polyfill 
+Step 2: create .babelrc (babel Configuration file )
+    {
+    "presets": ["@babel/preset-env"]
+    }
+Step 3: create start.js - entry point of your express application
 
-Step 2: .babelrc (babel Configuration file )
-{
-   "presets": ["@babel/preset-env"]
-}
-
-Step 3: start.js - entry point of your application
+    require("@babel/register")({});
+    module.exports = require("./App");
 
 
-Step 4: package.json file setting
+Step 4: change package.json file setting for 
+"Start":"nodemon start.js"
