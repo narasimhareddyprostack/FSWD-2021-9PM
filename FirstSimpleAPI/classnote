@@ -1,0 +1,10 @@
+How to start back end (node js project/application)
+
+>npm init -y
+
+Objective: create one simple API using node js core modules and 3rd party module 
+           and 
+           with es6 enable 
+
+> npm i express @babel/core @babel/register @babel/preset-env babel-polyfill morgan dotenv 
+

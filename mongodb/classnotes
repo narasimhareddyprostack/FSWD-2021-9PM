@@ -1,0 +1,54 @@
+Mongo DB  - is an open-source document based database 
+            management tools that stores data in JSON format.
+
+
+1.Relational Database / SQL databases 
+2.No-Relational Database/NoSQL database
+  Document-based Database 
+  
+  {
+  "name":"Kavitha",
+  "loc:"Bangalore"
+  }
+  
+Few SQL Db names - Oracle DB's, SQL Server, MySQL, PopSQL, PG 
+
+NO-SQL DB Name : MongoDB, cassandra, redis, couchbase, DynamoDB 
+
+
+Mongo DB: is based JavaScript 
+          arch:Mozilla - spider Monkey JS Runtime Environment
+		  - Document Type Database / NoSQL Database 
+		  - Schema Less 
+		  - Application Driven Database
+		  - JSON & BSON
+		  - JavaScript Object Notation and Binary(0,1) JSON
+
+Mongo DB - Advantages 
+
+1. Installation and setup is very easy 
+
+2. documents are independent of each other and no schema.
+3. single documents. Perfomance very high 
+
+4. JSON - 
+5. we are storing very huge amount of data - scalability
+
+Download and Install and set the class path. 
+
+How to set mongodb path?
+what is use of path?
+
+
+C              D        E             F 
+S/W                     e:>mongod 
+                          >mongo
+						  
+C:\Program Files\MongoDB\Server\4.4\bin
+
+MyPC->Environment Variable - System Variable--> Path 
+
+						  
+
+>mongod
+>mongo - client 

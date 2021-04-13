@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "first_name": "Cosette",
+    "last_name": "Greetham",
+    "email": "cgreetham0@mozilla.com",
+    "gender": "Non-binary"
+  },
+  {
+    "id": 2,
+    "first_name": "Sunny",
+    "last_name": "Murrells",
+    "email": "smurrells1@nature.com",
+    "gender": "Non-binary"
+  },
+  {
+    "id": 3,
+    "first_name": "Ianthe",
+    "last_name": "Darycott",
+    "email": "idarycott2@illinois.edu",
+    "gender": "Female"
+  },
+  {
+    "id": 4,
+    "first_name": "Marcella",
+    "last_name": "Ram",
+    "email": "mram3@huffingtonpost.com",
+    "gender": "Genderqueer"
+  },
+  {
+    "id": 5,
+    "first_name": "Colas",
+    "last_name": "Shepherdson",
+    "email": "cshepherdson4@baidu.com",
+    "gender": "Female"
+  },
+  {
+    "id": 6,
+    "first_name": "Karine",
+    "last_name": "Blakemore",
+    "email": "kblakemore5@nps.gov",
+    "gender": "Agender"
+  },
+  {
+    "id": 7,
+    "first_name": "Umberto",
+    "last_name": "Petrov",
+    "email": "upetrov6@hud.gov",
+    "gender": "Genderfluid"
+  },
+  {
+    "id": 8,
+    "first_name": "Robyn",
+    "last_name": "Robic",
+    "email": "rrobic7@vk.com",
+    "gender": "Polygender"
+  },
+  {
+    "id": 9,
+    "first_name": "Rod",
+    "last_name": "Loffhead",
+    "email": "rloffhead8@google.co.uk",
+    "gender": "Bigender"
+  },
+  {
+    "id": 10,
+    "first_name": "Winifred",
+    "last_name": "Vogl",
+    "email": "wvogl9@ifeng.com",
+    "gender": "Agender"
+  },
+  {
+    "id": 11,
+    "first_name": "Moore",
+    "last_name": "Tratton",
+    "email": "mtrattona@uiuc.edu",
+    "gender": "Female"
+  },
+  {
+    "id": 12,
+    "first_name": "Jacquenetta",
+    "last_name": "O'Codihie",
+    "email": "jocodihieb@youtube.com",
+    "gender": "Male"
+  },
+  {
+    "id": 13,
+    "first_name": "Delinda",
+    "last_name": "Tellenbach",
+    "email": "dtellenbachc@washingtonpost.com",
+    "gender": "Female"
+  },
+  {
+    "id": 14,
+    "first_name": "Brnaba",
+    "last_name": "Roselli",
+    "email": "brosellid@g.co",
+    "gender": "Agender"
+  },
+  {
+    "id": 15,
+    "first_name": "Dion",
+    "last_name": "Eager",
+    "email": "deagere@imdb.com",
+    "gender": "Genderfluid"
+  },
+  {
+    "id": 16,
+    "first_name": "Jewell",
+    "last_name": "Evason",
+    "email": "jevasonf@jalbum.net",
+    "gender": "Bigender"
+  },
+  {
+    "id": 17,
+    "first_name": "Britni",
+    "last_name": "Conradie",
+    "email": "bconradieg@opera.com",
+    "gender": "Agender"
+  },
+  {
+    "id": 18,
+    "first_name": "Dennie",
+    "last_name": "Cay",
+    "email": "dcayh@geocities.com",
+    "gender": "Bigender"
+  },
+  {
+    "id": 19,
+    "first_name": "Eziechiele",
+    "last_name": "Elecum",
+    "email": "eelecumi@tumblr.com",
+    "gender": "Non-binary"
+  },
+  {
+    "id": 20,
+    "first_name": "Andrei",
+    "last_name": "Ogles",
+    "email": "aoglesj@blogs.com",
+    "gender": "Male"
+  }
+]
