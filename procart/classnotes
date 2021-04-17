@@ -1,0 +1,6 @@
+Backend NodeJS Project
+> npm init -y
+  updating package.json
+  start :"nodemon app.js"
+  
+>
