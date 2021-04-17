@@ -1,6 +1,30 @@
+
+If you are implimenting end 2 end project
+1. start backend > npm start 
+2. state react > npm start 
+
 Backend NodeJS Project
+
 > npm init -y
   updating package.json
-  start :"nodemon app.js"
+  "start" :"nodemon app.js"
   
->
+> npm i express bcryptjs jsonwebtoken dotenv mongoose morgan chalk 
+
+
+Frontend 
+>npx create-react-app client 
+cd client
+npm start 
+
+--------------------------------
+What we required in React?
+
+1.SPA             - React-router-dom
+2.State Managment - redux,react-redux redux-devtools-extension 
+
+Install required Packages 
+client>npm i react-router-dom redux react-redux  redux-devtools-extension
+
+
+
