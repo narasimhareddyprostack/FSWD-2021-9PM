@@ -61,6 +61,15 @@ let Signup = () => {
                     </div>
                     <div className="form-group">
                       <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Confirm Password "
+                        name="password"
+                        onChange={inputHandler}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <input
                         type="submit"
                         className="form-control btn btn-primary"
                       />
