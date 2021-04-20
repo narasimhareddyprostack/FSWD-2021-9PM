@@ -37,6 +37,11 @@ let Navbar = () => {
                 Watches
               </Link>
             </li>
+            <li className="nav-item active">
+              <Link className="nav-link" to="/upload">
+                Product Upload
+              </Link>
+            </li>
           </ul>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
