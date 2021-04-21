@@ -1,0 +1,20 @@
+1.How to read environment variable in Node JS?
+2.How to  read form data/body data in express?
+3.What is body parser? what is alternative?
+4.How to connect to mongoDB?
+5.What is Mongoose?
+6.What is Schema?
+7.What is async and await , and how to implement?
+8.What is cors?
+9.How to test Backend API?
+10.How to create express server/App?
+
+/*
+  create express server 
+  how to read Env variable  -dotenv package
+  read form data
+  connect mongodb
+  implement routing 
+  create model
+
+*/
